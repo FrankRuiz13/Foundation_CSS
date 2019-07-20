@@ -17,11 +17,26 @@
     background-size: cover;
   }
   
+  #title {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 75px;
+  }
   .hero-full-screen .middle-content-section {
     text-align: center;
-    color: #fefefe;
+    color: white;
+    text-shadow: 2px 2px 7px black;
   }
-  
+
+  #artist-form {
+    margin: 300px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: fantasy;
+    background-image: linear-gradient(120deg, darkred 0%, darkkhaki 100%);
+    
+  }
+
   .hero-full-screen .top-content-section {
     width: 100%;
   }
@@ -45,7 +60,7 @@
   }
   
   .hero-full-screen .top-bar .menu-text {
-    color: #fefefe;
+    color: red;
   }
   
   .hero-full-screen .top-bar .menu li {
@@ -58,7 +73,7 @@
   }
   
   .hero-full-screen .top-bar .menu a {
-    color: #fefefe;
+    color: red;
     font-weight: bold;
   }
   
