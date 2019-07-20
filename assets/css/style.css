@@ -97,31 +97,36 @@
     text-align: center;
     overflow: auto;
     clear: both;
+  
   }
 
   h1 {
-    background-image: linear-gradient(120deg, firebrick 0%, darkgray 100%);
+    background-image: linear-gradient(120deg, firebrick 0%, darkkhaki 100%);
     border-radius: 1rem;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narro w', Arial, sans-serif;
     font-size: 50px;
-    color: white;
+    color: black;
     padding: 5px;
-    text-shadow: 2px 2px 7px black;
   }
 
   a {
     text-decoration: none;
     text-align: center;
-    color: red;
+    color:darkred;
+
   }
   img {
    margin: 5px;
+   background-image: linear-gradient(120deg, darkkhaki 0%, firebrick 100%);
    
   }
 
   h2 {
+    border-radius: 1rem;
+    padding: 5px;
     text-align: center;
+    background-image: linear-gradient(120deg, darkkhaki 0%, firebrick 100%);
   }
 
 
