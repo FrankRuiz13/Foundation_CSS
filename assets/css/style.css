@@ -34,6 +34,7 @@
   }
 
   #artist-form {
+    border-radius: 1rem;
     margin: 250px;
     padding: 20px;
     font-size: 30px;
