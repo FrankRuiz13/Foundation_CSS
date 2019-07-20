@@ -21,10 +21,11 @@
   }
   
   #title {
-    font-family: fantasy;
+    font-family: 'Boogaloo', cursive;
     text-align: center;
     font-size: 75px;
     text-decoration: underline darkred;
+    text-shadow: 2px 2px 7px grey;
   }
   .hero-full-screen .middle-content-section {
     text-align: center;
@@ -36,7 +37,7 @@
     margin: 250px;
     padding: 20px;
     font-size: 30px;
-    font-family: fantasy;
+    font-family: 'Boogaloo', cursive;
     background-image: linear-gradient(120deg, darkred 0%, black 100%);
     
   }
