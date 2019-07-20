@@ -88,6 +88,44 @@
     color: red;
     font-weight: bold;
   }
+
+  .container {
+    display: flex;
+    flex-wrap:wrap;
+  }
+  #artist-div {
+    text-align: center;
+    overflow: auto;
+    clear: both;
+  }
+
+  h1 {
+    background-image: linear-gradient(120deg, firebrick 0%, darkgray 100%);
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narro w', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 2px 7px black;
+  }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: red;
+  }
+  img {
+   margin: 5px;
+   
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+
+
   
   @media screen and (min-width: 375px) {
     .hero-full-screen {
