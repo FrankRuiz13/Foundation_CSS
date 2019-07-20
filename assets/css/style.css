@@ -42,6 +42,12 @@
     background-image: linear-gradient(120deg, darkred 0%, black 100%);
     
   }
+  
+  #select-artist {
+    font-family: 'Boogaloo', cursive;
+    font-size: 20px;
+    border-radius: 1rem;
+  }
 
   .hero-full-screen .top-content-section {
     width: 100%;
