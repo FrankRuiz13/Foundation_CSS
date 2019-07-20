@@ -1,4 +1,7 @@
+* {
+    box-sizing: border-box;
 
+}
 .hero-full-screen {
     height: 100vh;
     display: -webkit-flex;
@@ -13,7 +16,7 @@
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background: url("../images/bands.jpg") center center no-repeat;
+    background: url("../images/concert4.jpg") center center no-repeat;
     background-size: cover;
   }
   
@@ -21,6 +24,7 @@
     font-family: fantasy;
     text-align: center;
     font-size: 75px;
+    text-decoration: underline darkred;
   }
   .hero-full-screen .middle-content-section {
     text-align: center;
@@ -29,11 +33,11 @@
   }
 
   #artist-form {
-    margin: 300px;
-    padding: 10px;
+    margin: 250px;
+    padding: 20px;
     font-size: 30px;
     font-family: fantasy;
-    background-image: linear-gradient(120deg, darkred 0%, darkkhaki 100%);
+    background-image: linear-gradient(120deg, darkred 0%, black 100%);
     
   }
 
