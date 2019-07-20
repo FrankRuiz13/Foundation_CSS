@@ -11,6 +11,7 @@ function searchBandsInTown(artist) {
       console.log(response);
 
       // Constructing HTML containing the artist information
+     
       var artistName = $("<h1>").text(response.name);
       var artistURL = $("<a>").attr("href", response.url).append(artistName);
       var artistImage = $("<img>").attr("src", response.thumb_url);
@@ -18,9 +19,11 @@ function searchBandsInTown(artist) {
       var upcomingEvents = $("<h2>").text(response.upcoming_event_count + " upcoming events");
       var goToArtist = $("<a>").attr("href", response.url).text("See Tour Dates");
 
+     
       // Empty the contents of the artist-div, append the new artist content
       $("#artist-div").empty();
       $("#artist-div").append(artistURL, artistImage, trackerCount, upcomingEvents, goToArtist);
+      
     });
   }
 
