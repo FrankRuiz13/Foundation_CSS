@@ -77,4 +77,12 @@
     font-weight: bold;
   }
   
-  
+  @media screen and (min-width: 600px) {
+    .hero-full-screen {
+      max-width: 100%;
+    }
+
+    #artist-form {
+      max-width: 100%;
+    }
+  }
